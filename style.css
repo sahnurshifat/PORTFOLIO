@@ -3,6 +3,10 @@ body {
     margin: 0px;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .banner {
     display: flex;
     background-image: url(Sources/top-banner.png);
@@ -13,11 +17,33 @@ body {
 .half-width {
     width: 50%;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding-left: 100px;
+    padding-right: 50px;
     text-align: justify;
 }
 
+.button {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(tomato, hotpink);
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+
+
 .half-width img {
     width: 50%;
+}
+
+.stubborn {
+    padding-top: 120px;
     padding-left: 200px;
+}
+
+.middle {
+    display: flex;
+
 }
